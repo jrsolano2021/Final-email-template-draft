@@ -1,0 +1,24 @@
+.my-row1 {
+    height: 100vh;
+    background-color: red;  
+}
+.ul-styling {
+    line-height: 200%;
+}
+.avatar {
+    border-radius: 50%;
+}
+.welcome-back {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.email-text-1 {
+    font-size: 13px;
+}
+.email-text-2 {
+    font-size: 12px;
+}
+.links-unstyled {
+    text-decoration: none;
+}
