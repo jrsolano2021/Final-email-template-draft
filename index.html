@@ -11,7 +11,7 @@
     <title>Final Draft Bootstrap Project</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row my-row1">
             <div class="col-sm-2 col-md-2 d-flex flex-column align-items-center p-3" style=" background-color: bisque;">
 
@@ -95,10 +95,21 @@
                 </div>
 
                 <!--Reply Div-->
-                <div class="p-3" style="height: auto;">
-                    <div class="input-group">
-                        <textarea class="form-control" rows="3"></textarea>
-                        <button type="button" class="btn btn-primary">Reply</button>
+                <div class="d-flex flex-column align-items-center w-100" style="height: 200px;">
+                    <div class="row w-100">
+                        <div class="col">
+                        <div class="p-3" style="height: auto;">
+                            <div class="input-group">
+                                <textarea class="form-control" rows="4"></textarea>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row w-75">
+                        <div class="col d-flex justify-content-between">
+                            <a href="#" class="text-white"><i class="fas fa-paperclip"></i></a>
+                            <button type="button" class="btn-sm btn-primary">Reply</button>
+                        </div>
                     </div>
                 </div>
                 
